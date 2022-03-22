@@ -1,4 +1,5 @@
 package test;
+
 public class Motor {
 	int numeroCilindros;
 	String tipo;
@@ -8,7 +9,7 @@ public class Motor {
 		this.registro=registro;
 	}
 	void asignarTipo(String tipo) {
-		if (tipo =="gasolina" || tipo=="electrico"){
+		if (tipo =="electrico" || tipo=="gasolina"){
 			this.tipo=tipo;
 		}
 	}
