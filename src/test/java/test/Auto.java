@@ -8,7 +8,7 @@ public class Auto {
 	String marca;
 	Motor motor;
 	int registro;
-	int cantidadCreados;
+	public static int cantidadCreados;
 	
 	int cantidadAsientos(){
 		int totalAsientos=0;
